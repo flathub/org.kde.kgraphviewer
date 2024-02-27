@@ -75,6 +75,9 @@
                     "type": "file",
                     "path": "logo.png"
                 }
+            ],
+            "post-install": [
+                "appstream-util modify ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.appdata.xml project_license GPL-2.0-or-later"
             ]
         }
     ]
