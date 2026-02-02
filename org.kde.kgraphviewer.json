@@ -67,6 +67,7 @@
                     "url": "https://download.kde.org/stable/kgraphviewer/2.5.0/kgraphviewer-2.5.0.tar.xz",
                     "sha256": "872bee63fb4df6f7fb2b4eaf02ff825cba3ca953ac02509a287fe5cd0f1e2b69",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 17741,
                         "stable-only": true,
