@@ -12,6 +12,17 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
+     "cleanup": [
+        "/include/boost",
+        "/lib/cmake/Boost*",
+        "/lib/cmake/boost*",
+        "/lib/pkgconfig",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "boost",
