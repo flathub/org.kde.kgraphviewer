@@ -12,10 +12,9 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
-     "cleanup": [
-        "/include/boost",
-        "/lib/cmake/Boost*",
-        "/lib/cmake/boost*",
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
         "/share/doc",
         "/share/man",
@@ -30,9 +29,6 @@
             "build-commands": [
                 "./bootstrap.sh --prefix=/app --with-libraries=spirit",
                 "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
-            ],
-            "cleanup": [
-                "/lib/libboost_*.a"
             ],
             "sources": [
                 {
