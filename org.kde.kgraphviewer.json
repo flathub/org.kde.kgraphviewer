@@ -70,14 +70,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kgraphviewer/2.5.0/kgraphviewer-2.5.0.tar.xz",
-                    "sha256": "872bee63fb4df6f7fb2b4eaf02ff825cba3ca953ac02509a287fe5cd0f1e2b69",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kgraphviewer-25.12.2.tar.xz",
+                    "sha256": "b49f399aeaafe595d53c80af2089e1313d10700999a6b4e00d2c022adaffae86",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
                         "project-id": 17741,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kgraphviewer/$version/kgraphviewer-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kgraphviewer-$version.tar.xz"
                     }
                 }
             ]
