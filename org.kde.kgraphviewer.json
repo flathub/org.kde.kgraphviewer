@@ -50,8 +50,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.0.0/graphviz-15.0.0.tar.xz",
-                    "sha256": "937fe4757687260e46a1c9a171cc677e3d4c89abd1efc8885ccb66467c3616ff",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.0/graphviz-15.1.0.tar.xz",
+                    "sha256": "4c44f9f6654d39638db7cdb6a088735117469015299298d82087b24dd4042b16",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kgraphviewer-26.04.2.tar.xz",
-                    "sha256": "afae2f0e4befde8125c55b52be69089ebb02b5a1fd60075ac7536c3bf0d01c7e",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kgraphviewer-26.04.3.tar.xz",
+                    "sha256": "d10266f6a98ee0234e5edf2f3ddb272a508cb72679553d0030ffebcb3e4099b9",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
